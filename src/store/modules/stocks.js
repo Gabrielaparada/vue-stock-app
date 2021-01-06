@@ -15,7 +15,8 @@ const mutations = {
 
 const actions = {
     buyStock:({commit}, order) => {
-        commit()
+        //this is coming from portfolio.js's mutations
+        commit('BUY_STOCK', order)
 
     },
     initStocks: ({commit}) => {
