@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>HI</h1>
-    <Stocks v-for="stock in stocks" :stocks="stocks"/>
+    <StockPortfolio v-for="stock in stocks" :stock="stock"/>
   </div>
 </template>
 
