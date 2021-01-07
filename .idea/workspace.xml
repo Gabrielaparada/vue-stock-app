@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b6aca681-361a-4a47-871d-15e335611cc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/StocksPortfolio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/StocksPortfolio.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stocks/Stock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stocks/Stock.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609971283397</updated>
       <workItem from="1609971284455" duration="681000" />
+      <workItem from="1610061415886" duration="727000" />
     </task>
     <servers />
   </component>
