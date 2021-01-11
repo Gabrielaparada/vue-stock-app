@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b6aca681-361a-4a47-871d-15e335611cc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/portoflio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/portoflio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -43,21 +62,34 @@
       <workItem from="1610061415886" duration="2436000" />
       <workItem from="1610117948745" duration="618000" />
       <workItem from="1610120098719" duration="2180000" />
+      <workItem from="1610380890083" duration="1504000" />
+      <workItem from="1610383415480" duration="3852000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2448" y="286" width="586" height="531" key="find.popup" timestamp="1610133807182">
+    <state x="2448" y="286" width="586" height="531" key="find.popup" timestamp="1610385516193">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
-    <state x="2448" y="286" width="586" height="531" key="find.popup/1792.23.1920.1057/0.23.1792.1017@1792.23.1920.1057" timestamp="1610133807182" />
+    <state x="2448" y="286" width="586" height="531" key="find.popup/1792.23.1920.1057/0.23.1792.1017@1792.23.1920.1057" timestamp="1610385516193" />
     <state x="2448" y="266" width="586" height="490" key="find.popup/1792.23.1920.977/0.23.1792.1097@1792.23.1920.977" timestamp="1609971758420" />
-    <state x="2405" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1610133771850">
+    <state x="2405" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1610381053687">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
-    <state x="2405" y="238" width="670" height="676" key="search.everywhere.popup/1792.23.1920.1057/0.23.1792.1017@1792.23.1920.1057" timestamp="1610133771850" />
+    <state x="2405" y="238" width="670" height="676" key="search.everywhere.popup/1792.23.1920.1057/0.23.1792.1017@1792.23.1920.1057" timestamp="1610381053687" />
   </component>
 </project>

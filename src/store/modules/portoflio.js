@@ -29,10 +29,14 @@ const mutations = {
             console.log(record)
             record.quantity -= quantity;
         } else {
-            //if I try to sell more than what I have or exactly what I have then we want to remove it from the array 
+            //if I try to sell more than what I have or exactly what I have then we want to remove it from the array
             state.stocks.splice(state.stocks.indexOf(record), 1)
         }
         state.funds += stockPrice * quantity
+    },
+    'SET_PORTFOLIO'(state, portfolio){
+        state.funds = portfolio.funds;
+        state.stocks = portfolio.stockPortfolio ? portfolio.stockPortfolio : []
     }
 }
 
@@ -45,7 +49,7 @@ const actions = {
 const getters ={
     stockPortfolio(state, getters){
         return state.stocks.map( stock => {
-            //stock refers to the stocks we are currently at in the map, 
+            //stock refers to the stocks we are currently at in the map,
             // elementid refers to the element array that's on our modules not just on our portfolio
             const record = getters.stocks.find(element => element.id == stock.id);
                 //we will return a new record and this is what the elements on our array will look like

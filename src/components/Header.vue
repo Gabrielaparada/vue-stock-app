@@ -20,8 +20,8 @@
                href="#"
                aria-expanded="false">Save & Load <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#" @clik="saveData">Save Data</a></li>
-              <li><a href="#">Another action</a></li>
+              <li><a href="#" @click="saveData">End Day</a></li>
+              <li><a href="#" @click="loadData">Load data</a></li>
             </ul>
           </li>
         </ul>
@@ -45,23 +45,29 @@ import {mapActions} from 'vuex'
       }
     },
     methods: {
-      ...mapActions([
+      ...mapActions({
         // if you want to keep the original name of the action you need to pass an array
-        'randomnizeStock'
-      ]),
+        randomnizeStock: 'randomnizeStock',
+        fetchData: 'loadData'
+      }),
       endDay() {
-        console.log(this.$store)
+        console.log('random')
         this.randomnizeStock();
       },
       saveData() {
+        console.log('clicked')
         const data = {
           funds: this.$store.getters.funds,
           stockPortfolio: this.$store.getters.stockPortfolio,
           stocks: this.$store.getters.stocks
         };
-        //using put will overwrite the ol data
-        // //data.json is the node iof the file we want to create
-        // this.$http.put('data.json', data)
+        //using put will overwrite the old data
+        // //data.json is the node of the file we want to create
+        this.$http.put('data.json', data)
+      },
+      loadData() {
+        console.log('load')
+        this.fetchData()
       }
     }
   }
